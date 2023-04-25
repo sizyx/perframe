@@ -1,11 +1,11 @@
-#Makefile for perf_bech
+#Makefile for perf_bench
 #Created by sizyx@163.com
 .SUFFIXES:
 .SUFFIXES:  .c .o
 
 CXX ?= g++
 CC ?= gcc
-EXE=perf_bech
+EXE=perf_bench
 EXTLIB=../perframe/libperframe.a
 CFLAGS=-pthread -fPIC -fvisibility=hidden -I. -I../perframe/src 
 
